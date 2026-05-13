@@ -64,8 +64,8 @@ export function Landing() {
           </p>
           <p style={{ fontSize: '13px', opacity: 0.6, marginTop: '8px' }}>
             {lang === 'es'
-              ? 'Programa de prehabilitación y recuperación oncológica'
-              : 'Oncological prehabilitation and recovery programme'}
+              ? 'Preparación y recuperación para cirugía oncológica'
+              : 'Oncological surgical preparation and recovery programme'}
           </p>
         </div>
 
@@ -95,7 +95,7 @@ export function Landing() {
             <span style={{ fontSize: '28px' }}>💪</span>
             <div style={{ flex: 1 }}>
               <p style={{ fontSize: '17px', fontWeight: 600, color: 'var(--color-text-primary)', marginBottom: '2px' }}>
-                {lang === 'es' ? 'Prehabilitación' : 'Prehabilitation'}
+                {lang === 'es' ? 'Prepárate para la cirugía' : 'Prepare for surgery'}
               </p>
               <p style={{ fontSize: '13px', color: 'var(--color-text-secondary)' }}>
                 {lang === 'es' ? 'Antes de la cirugía · Ejercicio, nutrición y bienestar' : 'Before surgery · Exercise, nutrition and wellbeing'}
