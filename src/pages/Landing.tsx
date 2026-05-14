@@ -4,7 +4,7 @@ import { useLanguage } from '../i18n/LanguageContext'
 
 export function Landing() {
   const navigate = useNavigate()
-  const { t, lang, setLang } = useLanguage()
+  const { lang, setLang } = useLanguage()
 
   return (
     <div style={{ minHeight: '100vh', backgroundColor: 'var(--color-bg)', display: 'flex', flexDirection: 'column' }}>
@@ -156,8 +156,7 @@ export function Landing() {
 
       {/* Footer */}
       <footer style={{ textAlign: 'center', padding: '16px 20px 32px', color: 'var(--color-text-muted)', fontSize: '12px' }}>
-        <p>{t.landing.creator}</p>
-        <p style={{ marginTop: '2px' }}>{t.landing.creatorRole}</p>
+        <p>H.G.U. Gregorio Marañón · v1.0 · 2026</p>
       </footer>
     </div>
   )
